@@ -1,0 +1,68 @@
+{
+	"info": {
+		"_postman_id": "16fa02b4-58c9-44a0-b373-cd3263558668",
+		"name": "PWD",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "33533240"
+	},
+	"item": [
+		{
+			"name": "listAll",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{host}}/list",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"list"
+					],
+					"query": [
+						{
+							"key": "nome",
+							"value": "Dra.%20Ana%20Silva",
+							"disabled": true
+						},
+						{
+							"key": "especialidade",
+							"value": "Proctologista",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "host",
+			"value": "http://localhost:8080/profissionais",
+			"type": "string"
+		}
+	]
+}
