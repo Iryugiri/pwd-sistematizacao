@@ -41,7 +41,7 @@ java 17.0.x
 1. Acesse: https://www.postman.com/downloads/
 2. Baixe a versão para seu sistema operacional.
 3. Instale e faça login (ou crie uma conta gratuita).
-4. Importe sua coleção de requisições (`.postman_collection.json`) e ambiente (`.postman_environment.json`) se necessário.
+4. Importe a coleção de requisições (`.PWD.postman_collection`)
 
 ---
 
